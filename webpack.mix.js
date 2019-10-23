@@ -19,6 +19,9 @@ mix
             },
         },
     })
+    .babelConfig({
+        plugins: ['@babel/plugin-syntax-dynamic-import'],
+    })
     .purgeCss()
     .version()
     .sourceMaps()

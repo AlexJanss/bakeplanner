@@ -1,6 +1,13 @@
 <template>
     <main>
-        <slot />
+        <header>
+            <inertia-link href="/">Home</inertia-link>
+            <inertia-link href="/about">About</inertia-link>
+            <inertia-link href="/contact">Contact</inertia-link>
+        </header>
+        <article>
+            <slot />
+        </article>
     </main>
 </template>
 
@@ -10,16 +17,12 @@
             title: String,
         },
         watch: {
-            title(title) {
-                this.updatePageTitle(title)
-            },
-        },
-        mounted() {
-            this.updatePageTitle(this.title)
-        },
-        methods: {
-            updatePageTitle(title) {
-                document.title = title ? `${title} - ${this.$page.app.name}` : this.$page.app.name
+            title: {
+                immediate: true,
+                handler(title) {
+                    document.title = title
+                },
             },
         },
     }
+    </script>
