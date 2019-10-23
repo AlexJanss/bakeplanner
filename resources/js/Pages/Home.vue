@@ -1,16 +1,14 @@
 <template>
-       <layout title="Home">
+       <div>
         <h1>Bakeplaner</h1>
-        </layout>
+        </div>
 </template>
 
 <script>
     import Layout from '@/Shared/Layout'
 
     export default {
-        components: {
-            Layout,
-        },
+        layout: Layout,
         props: {
             test: String,
         }
