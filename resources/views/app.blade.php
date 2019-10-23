@@ -1,16 +1,15 @@
-@extends('layouts.base')
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
+    <script src="{{ mix('/js/app.js') }}" defer></script>
 
-@section('title', 'Page Title')
+</head>
+<body class="font-sans leading-none text-grey-darkest antialiased">
 
-@section('sidebar')
-    @parent
+@inertia
 
-    <p>This is appended to the master sidebar.</p>
-@endsection
-
-@section('content')
-    <p>This is my body content.</p>
-@endsection
-
-@section('scripts')
-@endsection
+</body>
+</html>
