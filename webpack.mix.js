@@ -1,15 +1,15 @@
 const mix = require('laravel-mix')
 const path = require('path')
+const tailwindcss = require('tailwindcss')
 const purgeCss = require('laravel-mix-purgecss')
 
 mix
     .js('resources/js/app.js', 'public/js')
-    .postCss('resources/css/app.css', 'public/css', [
-        require('postcss-import'),
-        require('tailwindcss')('./tailwind.config.js'),
-        require('postcss-nesting'),
-        require('autoprefixer'),
-    ])
+    .sass('resources/sass/app.scss', 'public/css')
+    .options({
+        processCssUrls: false,
+        postCss: [ tailwindcss('./tailwind.config.js') ],
+    })
     .webpackConfig({
         output: {chunkFilename: 'js/[name].js?id=[chunkhash]'},
         resolve: {
