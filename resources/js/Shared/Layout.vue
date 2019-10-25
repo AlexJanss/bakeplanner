@@ -3,8 +3,7 @@
         <header>
             <nav class="flex items-center justify-between flex-wrap bg-orange-500 p-6">
                 <div class="flex items-center flex-shrink-0 text-white mr-6">
-
-                    <span class="font-semibold text-xl tracking-tight">Bakeplaner</span>
+                    <span class="font-semibold text-xl tracking-tight">Bakeplanner</span>
                 </div>
                 <div class="block lg:hidden">
                     <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
@@ -13,13 +12,13 @@
                 </div>
                 <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                     <div class="text-sm lg:flex-grow">
-                        <inertia-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" href="/">Home</inertia-link>
-                        <inertia-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" href="/about">About</inertia-link>
-                        <inertia-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" href="/contact">Contact</inertia-link>
+                        <inertia-link class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-black mr-4" href="/">Home</inertia-link>
+                        <inertia-link class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-black mr-4" href="/about">About</inertia-link>
+                        <inertia-link class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-black mr-4" href="/recipes">Recipes</inertia-link>
+                        <inertia-link class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-black mr-4" href="/login">Login</inertia-link>
+                        <inertia-link class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-black mr-4" href="/contact">Contact</inertia-link>
                     </div>
-                    <div>
-                        <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
-                    </div>
+
                 </div>
             </nav>
 
