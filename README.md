@@ -5,8 +5,15 @@ There should be a recipe database, where users can add recipes. An user registra
 The framework I will be using for this web app is Laravel.
 
 <h2>Setup</h2>
-Local development is granted by Homestead, to bring it up locally, execute 'php vendor/bin/homestead make' after composer update. Aftzer that you can bring up the virtual environment by 'vagrant up'.
+Local development is granted by Homestead, to bring it up locally, execute 'php vendor/bin/homestead make' after composer update. 
+After that you can bring up the virtual environment by 'vagrant up'.
 
+<h2>Tools</h2>
+Utilized are 
+<ul>
+<li>Inertia.js</li>
+<li>TailwindCSS</li>
+</ul>
 <h2>TODO</h2>
 <ul>
 <li>Database structure</li>
