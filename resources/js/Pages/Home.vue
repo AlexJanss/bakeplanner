@@ -9,6 +9,7 @@
 
     export default {
         layout: Layout,
+        title: 'Home',
         props: {
             test: String,
         }
