@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', 'BakeplanerIndexController@index')->name('home');
+Route::get('/', 'BakeplannerIndexController@index')->name('home');
 
 

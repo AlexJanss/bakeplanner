@@ -1,6 +1,6 @@
-<h1>Bakeplaner App</h1>
+<h1>Bakeplanner App</h1>
 
-The goal is to create a bake planer, predominately for bread recipes. This planer will calculate the time each step of a recipe has to be done.
+The goal is to create a bake planner, predominately for bread recipes. This planer will calculate the time each step of a recipe has to be done.
 There should be a recipe database, where users can add recipes. An user registration is planed as well. 
 The framework I will be using for this web app is Laravel.
 

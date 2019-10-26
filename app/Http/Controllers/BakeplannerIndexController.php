@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Inertia\Inertia;
 use Illuminate\Http\Request;
 
-class BakeplanerIndexController extends Controller
+class BakeplannerIndexController extends Controller
 {
 
     public function index(Request $request){
