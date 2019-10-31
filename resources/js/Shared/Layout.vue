@@ -18,7 +18,7 @@
                         <inertia-link class="block lg:inline-block mt-1 sm:mt-2 text-gray-700 hover:text-black mr-4" href="/">Home</inertia-link>
                         <inertia-link class="block lg:inline-block mt-1 sm:mt-2 text-gray-700 hover:text-black mr-4" href="/about">About</inertia-link>
                         <inertia-link class="block lg:inline-block mt-1 sm:mt-2 text-gray-700 hover:text-black mr-4" href="/recipes">Recipes</inertia-link>
-                        <inertia-link class="block lg:inline-block mt-1 sm:mt-2 text-gray-700 hover:text-black mr-4" href="/login">Login</inertia-link>
+                        <inertia-link class="block lg:inline-block mt-1 sm:mt-2 text-gray-700 hover:text-black mr-4" :href="$route('login')">Login</inertia-link>
                         <inertia-link class="block lg:inline-block mt-1 sm:mt-2 text-gray-700 hover:text-black mr-4" href="/contact">Contact</inertia-link>
                     </div>
 
@@ -26,7 +26,7 @@
             </nav>
 
         </header>
-        <article>
+        <article class="max-w-3xl w-full mx-auto px-6 py-12">
             <slot />
         </article>
     </main>
