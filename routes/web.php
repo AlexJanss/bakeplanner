@@ -13,4 +13,6 @@
 
 Route::get('/', 'BakeplannerIndexController@index')->name('home');
 
+Route::get('/login', 'Auth\LoginController@index')->name('login');
+
 

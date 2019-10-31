@@ -1,71 +1,34 @@
 <template>
-    <v-layout align-center justify-center>
-        <v-flex xs12 sm8 md4>
-            <v-card class="elevation-12">
-                <v-toolbar dark color="primary">
-                    <v-toolbar-title>Login</v-toolbar-title>
-                </v-toolbar>
-                <v-card-text>
-                    <form id="login_form" method="POST" action="/login" aria-label="Login">
-
-                        <input type="hidden" name="_token" :value="csrf_token">
-
-                        <v-layout row>
-                            <v-flex xs12>
-                                <v-text-field
-                                        v-model="email"
-                                        v-validate="'required|max:255'"
-                                        data-vv-name="email"
-                                        :error-messages="errors.collect('email')"
-                                        label="Email"
-                                        name="email"></v-text-field>
-                            </v-flex>
-                        </v-layout>
-                        <v-layout row>
-                            <v-flex xs12>
-                                <v-text-field
-                                        v-model="password"
-                                        v-validate="'required|min:6'"
-                                        data-vv-name="password"
-                                        :error-messages="errors.collect('password')"
-                                        label="Password"
-                                        name="password"
-                                        type="password"></v-text-field>
-                            </v-flex>
-                        </v-layout>
-
-                        <v-btn color="primary" @click="validate">Login</v-btn>
-                        <router-link :to="{name: 'auth.email'}">Forgot Password?</router-link>
-                    </form>
-                </v-card-text>
-            </v-card>
-        </v-flex>
-    </v-layout>
+    <form @submit.prevent="submit">
+        <label for="first_name">First name:</label>
+        <input id="first_name" v-model="form.first_name" />
+        <div v-if="$page.errors.first_name">{{ $page.errors.first_name[0] }}</div>
+        <label for="last_name">Last name:</label>
+        <input id="last_name" v-model="form.last_name" />
+        <div v-if="$page.errors.last_name">{{ $page.errors.last_name[0] }}</div>
+        <label for="email">Email:</label>
+        <input id="email" v-model="form.email" />
+        <div v-if="$page.errors.email">{{ $page.errors.email[0] }}</div>
+        <button type="submit">Submit</button>
+    </form>
 </template>
 
 <script>
     export default {
-        inject: ['$validator'],
-        data: () => ({
-            email: '',
-            password: ''
-        }),
-        computed: {
-            csrf_token() {
-                let token = document.head.querySelector('meta[name="csrf-token"]')
-                return token.content
+        name: "Login",
+        data() {
+            return {
+                form: {
+                    first_name: null,
+                    last_name: null,
+                    email: null,
+                },
             }
         },
         methods: {
-            validate() {
-                this.$validator.validateAll().then((result) => {
-                    if (result) {
-
-                        //Manually submit form if not errors
-                        document.getElementById("login_form").submit()
-                    }
-                })
-            }
-        }
+            submit() {
+                this.$inertia.post('/login', this.form)
+            },
+        },
     }
 </script>
