@@ -26,7 +26,7 @@
             </nav>
 
         </header>
-        <article>
+        <article class="max-w-3xl w-full mx-auto px-6 py-12">
             <slot />
         </article>
     </main>

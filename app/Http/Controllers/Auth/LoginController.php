@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use Inertia\Inertia;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
@@ -38,6 +39,9 @@ class LoginController extends Controller
     }
 
 
+    /**
+     * @return mixed
+     */
     public function index()
     {
         return Inertia::render('auth/Login');
