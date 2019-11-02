@@ -4,13 +4,13 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Ingredients extends Model
+class Ingredient extends Model
 {
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */
     public function ingredients()
     {
-        return $this->belongsToMany(Recipes::class);
+        return $this->belongsToMany(Recipe::class);
     }
 }
