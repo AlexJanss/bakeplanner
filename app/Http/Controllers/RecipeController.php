@@ -4,22 +4,25 @@
 namespace App\Http\Controllers;
 
 
-use App\Recipes;
+use App\Ingredient;
+use App\Recipe;
+use Illuminate\Support\Facades\Auth;
 
 class RecipeController
 {
 
     public function create(Request $request)
     {
-        $recipe = new Recipes();
-        $recipe->
-        $product->name = 'God of War';
-        $product->price = 40;
+        $recipe = new Recipe();
+        $recipe->name = $request->input('recipe_name');
+        $recipe->user_id = Auth::user()->id;
 
-        $product->save();
+        $recipe->save();
 
-        $category = Category::find([3, 4]);
-        $product->categories()->attach($category);
+        //input ingredients is a key value array id => name
+        //returns array of IDS
+        $ingredients = Ingredient::findOrCreate($request->input('ingredients'));
+        $recipe->ingredients()->attach($ingredients);
 
         return 'Success';
     }
