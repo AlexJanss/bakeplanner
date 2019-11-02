@@ -11,7 +11,8 @@ class RecipeController
 
     public function create(Request $request)
     {
-        $product = new Recipes();
+        $recipe = new Recipes();
+        $recipe->
         $product->name = 'God of War';
         $product->price = 40;
 
