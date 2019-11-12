@@ -11,6 +11,10 @@ use Illuminate\Support\Facades\Auth;
 class RecipeController
 {
 
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function create(Request $request)
     {
         $recipe = new Recipe();
@@ -24,7 +28,7 @@ class RecipeController
         $ingredients = Ingredient::findOrCreate($request->input('ingredients'));
         $recipe->ingredients()->attach($ingredients);
 
-        return 'Success';
+        return response()->json();
     }
 
 }
