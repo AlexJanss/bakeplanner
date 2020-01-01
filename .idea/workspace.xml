@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45eed104-eca4-4fc3-ac21-fe840aad420a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/bakeplaner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bakeplaner.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,32 +51,6 @@
         <option value="Vue Single File Component" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>welcome</find>
-      <find>HomeController</find>
-      <find>{{ $page }}</find>
-      <find>loc</find>
-      <find>version</find>
-      <find>page</find>
-      <find>rout</find>
-      <find>HomeC</find>
-      <find>'Home'</find>
-      <find>app</find>
-      <find>('app</find>
-      <find>BakeplanerIndexController</find>
-      <find>Inertia\Middelware</find>
-      <find>postcss-i</find>
-      <find>bakepla</find>
-      <find>bakeplaner</find>
-      <find>BakeplanerIn</find>
-      <find>user()</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/resources</dir>
-      <dir>$PROJECT_DIR$/resources/js/Pages</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -264,7 +235,7 @@
       <workItem from="1573717390347" duration="21000" />
       <workItem from="1573755381497" duration="21000" />
       <workItem from="1576168336050" duration="474000" />
-      <workItem from="1577895920656" duration="1528000" />
+      <workItem from="1577895920656" duration="1726000" />
     </task>
     <servers />
   </component>
@@ -290,5 +261,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="55" width="429" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1577896972933" />
+    <state x="359" y="87" width="648" height="552" key="find.popup" timestamp="1577897513971">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="359" y="87" width="648" height="552" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1577897513971" />
   </component>
 </project>

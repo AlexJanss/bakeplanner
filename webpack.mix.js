@@ -1,7 +1,7 @@
-const mix = require('laravel-mix')
-const path = require('path')
-const tailwindcss = require('tailwindcss')
-const purgeCss = require('laravel-mix-purgecss')
+const mix = require('laravel-mix');
+const path = require('path');
+const tailwindcss = require('tailwindcss');
+const purgeCss = require('laravel-mix-purgecss');
 
 mix
     .js('resources/js/app.js', 'public/js')
@@ -24,4 +24,4 @@ mix
     })
     .purgeCss()
     .version()
-    .sourceMaps()
+    .sourceMaps();
