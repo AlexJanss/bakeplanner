@@ -173,11 +173,23 @@
       <recent name="$PROJECT_DIR$/resources/views" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -212,7 +224,7 @@
       <workItem from="1578509370101" duration="70000" />
       <workItem from="1583050072822" duration="1036000" />
       <workItem from="1589634953781" duration="863000" />
-      <workItem from="1589635870090" duration="2620000" />
+      <workItem from="1589635870090" duration="3031000" />
     </task>
     <servers />
   </component>
@@ -230,6 +242,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589639063601">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589639063601" />
+    <state x="375" y="75" width="606" height="570" key="#docker-compose.yml:_Compose_Deployment" timestamp="1589639065834">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="75" width="606" height="570" key="#docker-compose.yml:_Compose_Deployment/0.0.1366.728@0.0.1366.728" timestamp="1589639065834" />
     <state x="433" y="252" width="500" height="221" key="git4idea.ui.GitResetDialog" timestamp="1589635348779">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
