@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45eed104-eca4-4fc3-ac21-fe840aad420a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/js/Shared/LoadingButton.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Shared/TextInput.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +153,6 @@
       <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
       <path value="$PROJECT_DIR$/vendor/laravel/homestead" />
       <path value="$PROJECT_DIR$/vendor/inertiajs/inertia-laravel" />
-      <path value="$PROJECT_DIR$/vendor/tightenco/ziggy" />
       <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
@@ -171,7 +178,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js/Shared" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -179,6 +186,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/js/Shared" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/resources/views" />
     </key>
@@ -270,6 +278,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="375" y="75" width="606" height="570" key="#docker-compose.yml:_Compose_Deployment/0.0.1366.728@0.0.1366.728" timestamp="1589639065834" />
+    <state width="1324" height="165" key="GridCell.Tab.0.bottom" timestamp="1589805210016">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="165" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589805210016" />
+    <state width="1324" height="165" key="GridCell.Tab.0.center" timestamp="1589805210015">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="165" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589805210015" />
+    <state width="1324" height="165" key="GridCell.Tab.0.left" timestamp="1589805210014">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="165" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589805210014" />
+    <state width="1324" height="165" key="GridCell.Tab.0.right" timestamp="1589805210015">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="165" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589805210015" />
     <state x="501" y="285" width="354" height="150" key="NewPhpFileDialog" timestamp="1589720328668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
