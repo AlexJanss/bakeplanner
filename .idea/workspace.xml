@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45eed104-eca4-4fc3-ac21-fe840aad420a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/Shared/LoadingButton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Shared/TextInput.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Auth/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Auth/Login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,6 +243,7 @@
       <workItem from="1589635870090" duration="3205000" />
       <workItem from="1589639296574" duration="4307000" />
       <workItem from="1589730792215" duration="2460000" />
+      <workItem from="1589867938813" duration="1042000" />
     </task>
     <servers />
   </component>
@@ -278,22 +273,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="375" y="75" width="606" height="570" key="#docker-compose.yml:_Compose_Deployment/0.0.1366.728@0.0.1366.728" timestamp="1589639065834" />
-    <state width="1324" height="165" key="GridCell.Tab.0.bottom" timestamp="1589805210016">
+    <state width="1324" height="165" key="GridCell.Tab.0.bottom" timestamp="1589808736994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="165" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589805210016" />
-    <state width="1324" height="165" key="GridCell.Tab.0.center" timestamp="1589805210015">
+    <state width="1324" height="165" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589808736994" />
+    <state width="1324" height="165" key="GridCell.Tab.0.center" timestamp="1589808736993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="165" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589805210015" />
-    <state width="1324" height="165" key="GridCell.Tab.0.left" timestamp="1589805210014">
+    <state width="1324" height="165" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589808736993" />
+    <state width="1324" height="165" key="GridCell.Tab.0.left" timestamp="1589808736993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="165" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589805210014" />
-    <state width="1324" height="165" key="GridCell.Tab.0.right" timestamp="1589805210015">
+    <state width="1324" height="165" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589808736993" />
+    <state width="1324" height="165" key="GridCell.Tab.0.right" timestamp="1589808736994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="165" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589805210015" />
+    <state width="1324" height="165" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589808736994" />
     <state x="501" y="285" width="354" height="150" key="NewPhpFileDialog" timestamp="1589720328668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

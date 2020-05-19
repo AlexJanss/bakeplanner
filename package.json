@@ -26,6 +26,8 @@
     "dependencies": {
         "@inertiajs/inertia": "^0.1.9",
         "@inertiajs/inertia-vue": "^0.1.4",
-        "tailwindcss": "^1.4.6"
+        "portal-vue": "^2.1.7",
+        "tailwindcss": "^1.4.6",
+        "vue-meta": "^2.3.3"
     }
 }
